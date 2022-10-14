@@ -1,0 +1,56 @@
+.title, .paragraph {
+    margin: 0 20px;
+}
+
+.title {
+    font-size: 2.4em;
+    margin: 4px 20px ;
+}
+
+.paragraph {
+    font-size: 20px;
+}
+
+.flex_search {
+    display: flex;
+    margin: 20px;
+}
+
+.enter_city {
+    display: block;
+    font-size: 20px;
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* data response */
+
+.data_response {
+    max-width: 300px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00000005;
+}
+
+.current {
+    color: #838080;
+}
+
+.temp {
+    font-size: 3em;
+    text-align: center;
+}
+
+.nameCity {
+    text-align: center;
+}
+
+.datainline {
+    text-align: center;
+    font-size: 20px;
+}

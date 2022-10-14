@@ -1,0 +1,66 @@
+.title_home {
+    font-size: 2.3em;
+    text-decoration: underline wavy #2b2c2c0a;
+}
+
+.paragraph {
+    font-size: 20px;
+    margin: 3px 0 20px 0;
+}
+
+.form_info_user {
+    border-top: 2px solid #2b2c2c1e;
+    padding: 10px 0;
+}
+
+.enter_info {
+    display: block;
+    font-size: 17px;
+    outline: none;
+    width: 95%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 10px 0 0 0;   
+}
+
+.button_submit {
+    background-color: #8012e7;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    width: 100px;
+    float: right;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px; 
+    padding: 10px;
+    transition: .4s;
+    margin: 30px 5px 10px 5px ;
+}
+
+.button_submit:hover {
+    background-color: hsl(271, 91%, 37%);
+}
+
+label {
+    font-size: 20px;
+    display: block;
+}
+
+.message {
+    color: #808080b6;
+    position: absolute;
+    bottom: 63px;
+    left: 10px;
+}
+
+.messageSmall {
+    color: #f76464;
+}
+
+@media screen and (max-width: 548px) {
+    .message {
+        display: none; 
+    }
+  }
