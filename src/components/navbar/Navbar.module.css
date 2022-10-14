@@ -26,11 +26,26 @@ header {
     color: #fff;
     padding: 10px;
     border-radius: 6px;
-    margin: 10px;
     transition: .5s;
 }
 
 .linksMenu a:hover {
     background-color: #2222222f;
     padding: 10px 20px;
+}
+/* 46a58d50 */
+.logoutButton {
+    background-color: #2928286c;
+    color: #fff;
+    border: none;
+    display: block;
+    width: 100px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.logoutButton:hover {
+    background-color: #292828d5;
 }

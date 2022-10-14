@@ -11,7 +11,7 @@ export const SearchTemp = () => {
   //get data store 
   const dataStore = JSON.parse(localStorage.getItem('@dataStoreUser'));
 
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=32e98030c971e83daa9b089454f9fae2&units=metric&lang=pt-br`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=32e98030c971e83daa9b089454f9fae2&units=metric&lang=pt-BR`;
 
   useEffect(() => {
     const GetDataApiTemperature = async () => {
@@ -28,13 +28,14 @@ export const SearchTemp = () => {
           }
           setData(data.main);
           setDataGeral(data);
+          console.log(data)
         })
     }
     GetDataApiTemperature();
   }, [city]);
 
   const handleSearchForNameCity = () => {
-    setShow(true)
+    setShow(true); 
   };
 
   return (
