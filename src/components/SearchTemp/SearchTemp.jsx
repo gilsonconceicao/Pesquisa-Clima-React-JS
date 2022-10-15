@@ -41,7 +41,7 @@ export const SearchTemp = () => {
   return (
     <div className={styles.container}>
       <h2 className={styles.title}>{hours && hours + ','} {dataStore.firstName + ' ' + dataStore.lastName}.</h2>
-      <p className={styles.paragraph}>Busque por clima atual da sua cidade, do seu bairro ou ateé masmo um país.</p>
+      <p className={styles.paragraph}>Busque por clima atual da sua cidade, do seu bairro ou até masmo um país.</p>
       <form onSubmit={handleSearchForNameCity} className={styles.flex_search}>
         <input
           className={styles.enter_city}
